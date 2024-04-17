@@ -16,7 +16,7 @@ def generar_edades(num_alumnos, edad_min=19, edad_max=36):
     edades = [random.randint(edad_min, edad_max) for _ in range(num_alumnos)]
     return edades
 
-# Ejemplo de uso:
+
 num_alumnos = 30
 edades_generadas = generar_edades(num_alumnos, edad_min=19, edad_max=36)
 print("Edades generadas:", edades_generadas)
